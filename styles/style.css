@@ -13,6 +13,8 @@ VERMELHO ESCURO: #D92B04
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -115,4 +117,39 @@ section#entrega > p {
     text-align: justify;
     font-size: 1.2em;
     border-bottom-right-radius: 40px;
+}
+
+div.burger-1 {
+    background-image: url(../img/bacon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 900px;
+}
+
+div.burger-1 > h2 {
+    display: block;
+    justify-content: first baseline;
+}
+
+div.container {
+    background-image: url(../img/noteblock.png);
+    background-size: cover;
+    margin-right: 132px;
+    padding-bottom: 45px;
+    border-bottom-right-radius: 45px;
+    text-align: justify;
+}
+
+div.container > h3 {
+    padding-top: 30px;
+    padding-left: 69px;
+    font-family: "Handlee", cursive;
+}
+
+div.container > p {
+    padding-left: 69px;
+    padding-top: 18px;
+    line-height: 17px;
+    font-family: "Handlee", cursive;
+    letter-spacing: 3px;
 }
