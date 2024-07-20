@@ -8,13 +8,97 @@
 </head>
 <body>
     <header>
-        <h1>Bem vindo à CodeBurgers!</h1>
-        <p>Onde o código encontra o sabor. Experimente nossos hambúrgueres exclusivos feitos com ingredientes frescos e receitas inovadoras. </p>
-        <a href="#" class="menu">Conheça nosso Menu</a>
-        <img src="img/logo.png" alt="Logo CodeBurgers">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo CodeBurgers">
+        </div>
+        <nav>
+            <a href="#about" class="nav">Sobre nós</a>
+            <a href="#menu" class="nav">Menu</a>
+            <a href="#" class="nav">Contato</a>
+        </nav>
     </header>
+
     <main>
-        
+        <section id="about">
+        <h1>Bem vindo à CodeBurgers!</h1>
+        <p>Onde o código encontra o sabor. Experimente nossos hambúrgueres exclusivos feitos com ingrediente frescos e receitas inovadoras, preparados por profissionais altamente capacitados. Nossa equipe é dedicada a proporcionar uma experiência gastronômica inigualável.</p>
+        </section>
+
+        <section id="entrega">
+            <h2>Entregas eficientes</h2>
+            <p>Na CodeBurgers, garantimos que seu hambúrguer chegue quente e perfeito com nossa entrega eficiente e cuidadosa.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Nosso Menu</h2>
+            <div id="burger">
+                <h3>funcion baconExtra()</h3>
+                <p>Um hambúrguer robusto com carne de alta qualidade, queijo cheddar, alface crocante, tomates frescos e uma dose extra de bacon crocante. Tudo isso em um pão brioche macio e tostado.</p>
+                <p><strong>Preço:</strong> R$ 25,00</p>
+                <img src="img/bacon.jpg" alt="funcion baconExtra()">
+            </div>
+            <div class="burger">
+                <h3>const rusticStyle</h3>
+                <p>Um hambúrguer rústico com carne grelhada no fogo, queijo suíço derretido, cebolas caramelizadas, alface e tomate, tudo isso em um pão artesanal de fermentação natural.</p>
+                <p><strong>Preço:</strong> R$ 28,00</p>
+                <img src="img/rustic.jpg" alt="const rusticStyle">
+            </div>
+            <div class="burger">
+                <h3>let triplomeat = "fullStack"</h3>
+                <p>Três camadas de carne suculenta, queijo cheddar, queijo prato, queijo mussarela, bacon, alface, tomate e um molho especial. Um hambúrguer para os verdadeiros devs Full Stack!</p>
+                <p><strong>Preço:</strong> R$ 35,00</p>
+                <img src="img/triplomeat.jpg" alt="triplomeat">
+            </div>
+            <div>
+                <h3>veganBurger = "greenCode"</h3>
+                <p>Um hambúrguer vegano delicioso com um saboroso patty de grão-de-bico, alface, tomate, picles, cebola roxa e molho especial vegano, tudo servido em um pão integral.</p>
+                <p><strong>Preço:</strong> R$ 30,00</p>
+                <img src="img/vegan.jpg" alt="veganburger">
+            </div>
+        </section>
+
+        <section class="clientes">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="coments">
+                <p>"A CodeBurgers é simplesmente incrível! O hambúrguer function baconExtra() é o meu favorito. Recomendadíssimo!" - João Silva</p>
+            </div>
+            <div class="coments">
+                <p>"Nunca pensei que programação e culinária pudessem se misturar tão bem. Deliciosos hambúrgueres!" - Maria Oliveira</p>
+            </div>
+        </section>
+
+        <section class="contato">
+            <form action="fic.html" method="post" autocomplete="on">
+                <label for="iname">Nome:</label>
+                <input type="text" id="iname" name="name" required autocomplete="name">
+                
+                <label for="iemail">Email:</label>
+                <input type="email" id="iemail" name="email" required autocomplete="email">
+                
+                <label for="imessage">Mensagem:</label>
+                <textarea id="imessage" name="message" required></textarea>
+
+                <label for="isatisfy">Quantas estrelas você daria para o nosso atendimento?</label>
+                <input type="range" name="satisfy" id="isatisfy" min="1" max="5" value="3">
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="contato">
+                <p>Email: contato@codeburgers.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua dos Desenvolvedores, 42 - São Paulo, SP</p>
+            </div>
+        </section>
     </main>
+    <footer>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contato</a>
+        </nav>
+        <p>Siga-nos:</p>
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </footer>
 </body>
 </html>
