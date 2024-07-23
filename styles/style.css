@@ -7,6 +7,8 @@ AMARELO: #F2B705
 LARANJA: #F2B705
 VERMELHO CLARO: #D92B04
 VERMELHO ESCURO: #D92B04
+PAPEL: #D9D1A9
+
 */ 
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
@@ -31,18 +33,20 @@ header {
 
 .logo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 15px;
+    padding-left: 30px;
 }
 
 .logo > img {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    padding-top: 60px;
 }
 
 .nav {
@@ -54,69 +58,37 @@ nav {
 
 .nav:hover {
     background-color: #D97904;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-radius: 20px;
     transition: .3s;
     color: white;
+    cursor: pointer;
 }
 
 section#about {
     background-image: url(../img/training.jpg);
+    padding-bottom: 410px;
     background-size: cover;
-    background-position: right bottom;
-    padding-top: 500px;
 }
 
 section#about > h1 {
-    background-color: rgba(128, 128, 128, 0.651);
     padding: 10px;
     padding-left: 18px;
-    text-align: left;
-    border-top-right-radius: 40px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    text-align: center;
     font-size: 1.8em;
 }
 
 section#about > p {
-    background-color: rgba(128, 128, 128, 0.651);
-    padding: 10px;
     padding-left: 18px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    text-indent: 10px;
-    text-align: justify;
-    font-size: 1.4em;
-}
-
-section#entrega {
-    background-image: url(../img/delivery.jpg);
-    background-size: cover;
-    background-position: right bottom;
-    padding-bottom: 500px;
-    border-top: solid black;
-}
-
-section#entrega > h2 {
-    background-color: rgba(128, 128, 128, 0.651);
-    padding: 10px;
-    padding-left: 18px;
-    text-align: left;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    font-size: 1.8em;
-}
-
-section#entrega > p {
-    background-color: rgba(128, 128, 128, 0.651);
-    padding: 10px;
-    padding-left: 18px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+    padding-right: 18px;
     text-indent: 10px;
     text-align: justify;
     font-size: 1.2em;
-    border-bottom-right-radius: 40px;
+}
+
+section#menu > h2 {
+    background-color: #D9D1A9;
+    text-align: center;
+    font-family: "Handlee", cursive;
 }
 
 /* BACON */
@@ -134,27 +106,26 @@ div.burger-1 > h2 {
 }
 
 div.container {
-    background-image: url(../img/noteblock.png);
-    background-size: cover;
+    background-color: #D9D1A9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
     margin-right: 132px;
     padding-bottom: 45px;
     border-bottom-right-radius: 45px;
-    text-align: justify;
 }
 
 div.container > h3 {
     padding-top: 30px;
-    padding-left: 69px;
+    padding-left: 60px;
     font-family: "Handlee", cursive;
 }
 
 div.container > p {
-    padding-left: 69px;
+    padding-left: 30px;
     padding-top: 13px;
+    padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
-    font-size: 0.9em;
 }
 
 /* RUSTICO */
@@ -172,12 +143,11 @@ div.burger-2 > h2 {
 }
 
 div.container-2 {
-    background-image: url(../img/noteblock.png);
-    background-size: cover;
+    background-color: #D9D1A9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
     margin-right: 132px;
     padding-bottom: 45px;
     border-bottom-right-radius: 45px;
-    text-align: justify;
 }
 
 div.container-2 > h3 {
@@ -187,13 +157,12 @@ div.container-2 > h3 {
 }
 
 div.container-2 > p {
-    padding-left: 69px;
-    padding-top: 15px;
+    padding-left: 30px;
+    padding-top: 13px;
     padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
-    font-size: 0.9em;
 }
 
 /* TRIPLOMEAT */
@@ -211,28 +180,26 @@ div.burger-3 > h2 {
 }
 
 div.container-3 {
-    background-image: url(../img/noteblock.png);
-    background-size: cover;
+    background-color: #D9D1A9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
     margin-right: 132px;
     padding-bottom: 45px;
     border-bottom-right-radius: 45px;
-    text-align: justify;
 }
 
 div.container-3 > h3 {
     padding-top: 30px;
-    padding-left: 69px;
+    padding-left: 40px;
     font-family: "Handlee", cursive;
 }
 
 div.container-3 > p {
-    padding-left: 69px;
+    padding-left: 30px;
     padding-top: 13px;
     padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
-    font-size: 0.9em;
 }
 
 /* VEGANO */
@@ -250,26 +217,24 @@ div.burger-4 > h2 {
 }
 
 div.container-4 {
-    background-image: url(../img/noteblock.png);
-    background-size: cover;
+    background-color: #D9D1A9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
     margin-right: 132px;
     padding-bottom: 45px;
     border-bottom-right-radius: 45px;
-    text-align: justify;
 }
 
 div.container-4 > h3 {
     padding-top: 30px;
-    padding-left: 69px;
+    padding-left: 40px;
     font-family: "Handlee", cursive;
 }
 
 div.container-4 > p {
-    padding-left: 69px;
-    padding-top: 14px;
+    padding-left: 30px;
+    padding-top: 13px;
     padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
-    font-size: 0.9em;
 }
