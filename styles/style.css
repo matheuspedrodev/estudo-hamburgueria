@@ -119,6 +119,8 @@ section#entrega > p {
     border-bottom-right-radius: 40px;
 }
 
+/* BACON */
+
 div.burger-1 {
     background-image: url(../img/bacon.jpg);
     background-size: cover;
@@ -148,11 +150,14 @@ div.container > h3 {
 
 div.container > p {
     padding-left: 69px;
-    padding-top: 18px;
+    padding-top: 13px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    font-size: 0.9em;
 }
+
+/* RUSTICO */
 
 div.burger-2 {
     background-image: url(../img/rustic.jpg);
@@ -183,11 +188,15 @@ div.container-2 > h3 {
 
 div.container-2 > p {
     padding-left: 69px;
-    padding-top: 18px;
+    padding-top: 15px;
+    padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    font-size: 0.9em;
 }
+
+/* TRIPLOMEAT */
 
 div.burger-3 {
     background-image: url(../img/triplomeat.jpg);
@@ -218,11 +227,15 @@ div.container-3 > h3 {
 
 div.container-3 > p {
     padding-left: 69px;
-    padding-top: 18px;
+    padding-top: 13px;
+    padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    font-size: 0.9em;
 }
+
+/* VEGANO */
 
 div.burger-4 {
     background-image: url(../img/vegan.jpg);
@@ -253,8 +266,10 @@ div.container-4 > h3 {
 
 div.container-4 > p {
     padding-left: 69px;
-    padding-top: 18px;
+    padding-top: 14px;
+    padding-right: 20px;
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    font-size: 0.9em;
 }
