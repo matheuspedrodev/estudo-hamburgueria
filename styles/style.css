@@ -123,7 +123,7 @@ div.burger-1 {
     background-image: url(../img/bacon.jpg);
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 900px;
+    padding-bottom: 720px;
 }
 
 div.burger-1 > h2 {
@@ -158,7 +158,7 @@ div.burger-2 {
     background-image: url(../img/rustic.jpg);
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 900px;
+    padding-bottom: 720px;
 }
 
 div.burger-2 > h2 {
@@ -193,7 +193,7 @@ div.burger-3 {
     background-image: url(../img/triplomeat.jpg);
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 900px;
+    padding-bottom: 720px;
 }
 
 div.burger-3 > h2 {
@@ -228,7 +228,7 @@ div.burger-4 {
     background-image: url(../img/vegan.jpg);
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 900px;
+    padding-bottom: 720px;
 }
 
 div.burger-4 > h2 {
