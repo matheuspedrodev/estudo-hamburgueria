@@ -25,6 +25,7 @@ PAPEL: #D9D1A9
 
 html {
     scroll-behavior: smooth;
+    background-color: #D9D1A9;
 }
 
 header {
@@ -35,7 +36,7 @@ header {
     display: flex;
     justify-content: left;
     padding: 15px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .logo > img {
@@ -65,30 +66,37 @@ nav {
 }
 
 section#about {
-    background-image: url(../img/training.jpg);
-    padding-bottom: 410px;
-    background-size: cover;
+    background-color: #D9D1A9;
 }
 
 section#about > h1 {
-    padding: 10px;
-    padding-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
-    font-size: 1.8em;
+    text-decoration: underline;
 }
 
 section#about > p {
-    padding-left: 18px;
-    padding-right: 18px;
-    text-indent: 10px;
     text-align: justify;
-    font-size: 1.2em;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 20px;
+}
+
+div.about-images {
+    background-image: url(../img/training.jpg);
+    padding-bottom: 600px;
+    background-size: cover;
+    border-radius: 60px;
+    border: solid rgba(0, 0, 0, 0.644);
+    margin: 15px;
 }
 
 section#menu > h2 {
     background-color: #D9D1A9;
     text-align: center;
     font-family: "Handlee", cursive;
+    text-decoration: underline;
 }
 
 /* BACON */
@@ -126,6 +134,7 @@ div.container > p {
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    text-indent: 20px;
 }
 
 /* RUSTICO */
@@ -163,6 +172,7 @@ div.container-2 > p {
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    text-indent: 20px;
 }
 
 /* TRIPLOMEAT */
@@ -200,6 +210,7 @@ div.container-3 > p {
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    text-indent: 20px;
 }
 
 /* VEGANO */
@@ -237,4 +248,5 @@ div.container-4 > p {
     line-height: 17px;
     font-family: "Handlee", cursive;
     letter-spacing: 3px;
+    text-indent: 20px;
 }
