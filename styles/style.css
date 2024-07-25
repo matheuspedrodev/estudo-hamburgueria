@@ -23,6 +23,7 @@ PAPEL: #D9D1A9
     font-family: "Source Code Pro", monospace, Arial, Helvetica, sans-serif;
     overflow: hidden;
     overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 html {
