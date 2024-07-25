@@ -121,6 +121,7 @@ div.container {
     margin-right: 132px;
     padding-bottom: 45px;
     border-bottom-right-radius: 45px;
+    border-top: none;
 }
 
 div.container > h3 {
