@@ -270,5 +270,14 @@ section.clientes > div.coments > p {
 }
 
 section.contato {
-    background-color: #A64F03;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.contato > iframe {
+    padding-left: 30px;
+}
+
+footer {
+    border-top: solid black;
 }
