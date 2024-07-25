@@ -21,6 +21,8 @@ PAPEL: #D9D1A9
     margin: 0;
     padding: 0;
     font-family: "Source Code Pro", monospace, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 html {
@@ -269,15 +271,51 @@ section.clientes > div.coments > p {
     text-align: justify;
 }
 
-section.contato {
-    margin-top: 50px;
-    margin-bottom: 50px;
+div#mapa-title {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
 }
 
-div.contato > iframe {
-    padding-left: 30px;
+div.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+iframe {
+    width: 80%;
+    height: 300px;
+    border: none;
+}
+
+div.contato {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div#redes {
+    text-align: center;
+}
+
+div#redes > p > a:hover {
+    color: rgb(155, 42, 33);
 }
 
 footer {
+    background-color: #A64F03;
+    color: white;
     border-top: solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer > p > a {
+    color: white;
+}
+
+footer > p > a:hover {
+    color: rgb(42, 236, 243);
+    text-decoration: dashed;
 }
